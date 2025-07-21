@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Conceptos básicos de seguridad'

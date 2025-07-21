@@ -17,13 +17,39 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #5C2C88
   &-2
-    background-color: #FFFBE8
+    background-color: #B6FBF3
   &-3
-    background-color: #F0E9F6
+    background-color: #E5EBFB
   &-4
-    background-color: #EAF8FD
+    background-color: #EDDBFD
+  &-5
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(229, 235, 251, 1) 41%, rgba(229, 235, 251, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-6
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(220, 185, 252, 1) 41%, rgba(220, 185, 252, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-7
+    background-color: #FCEEB5
+  &-8
+    background-color: #B6FBF3
+  &-9
+    background-color: #F6ECFE
+  &-10
+    background-color: #DCB9FC
+  &-11
+    background-color: #062678
+  &-12
+    background-color: #CDD9F7
+  &-13
+    background-color: #AA52F9 !important
+  &-14
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(206, 252, 247, 1) 41%, rgba(206, 252, 247, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-15
+    background-color: #B4C6F4
+  &-16
+    background-color: #E5FDFA
+  &-17
+    background-color: #FEF9E5
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -31,6 +57,10 @@
   &-white
     background-color: #fff
 
+.banner-text
+  background-color: #B4C6F4
+  padding: 20px 30px
+  margin-top: -48px
 .border-top
   &.color-primario
     border-top: 5px solid $color-primario !important
@@ -51,13 +81,13 @@
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -97,15 +127,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-primario, 25%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-primario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-primario, 27%) !important
 
 
 .anexo__texto
