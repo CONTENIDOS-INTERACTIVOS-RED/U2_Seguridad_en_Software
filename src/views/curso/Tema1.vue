@@ -293,7 +293,7 @@
               i.far.fa-arrow-alt-circle-right
               p.mb-0 Infraestructura de clave pública (PKI).
 
-    .bg-full-width.bg-color-11.mb-5
+    .bg-full-width.bg-color-11.mb-0
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.text-white

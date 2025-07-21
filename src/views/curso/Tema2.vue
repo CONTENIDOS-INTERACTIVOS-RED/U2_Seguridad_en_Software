@@ -687,14 +687,14 @@
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.text-white.order-lg-2
-            h2.mb-4(data-aos="flip-up") Rol del <em>middleware</em> en IoT
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Rol del middleware en IoT, donde se aborda el papel fundamental del middleware como capa de abstracción e integración en entornos de Internet de las Cosas (IoT).   
+            h2.mb-4(data-aos="flip-up") Manejo de certificados digitales
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Manejo de certificados digitales, donde se aborda el papel esencial de los certificados digitales en la seguridad de las comunicaciones electrónicas.   
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Rol del middleware en IoT
+                p <strong>Anexo. </strong> Manejo de certificados digitales
     
           .col-lg-4.order-lg-1
             figure(data-aos="zoom-in")
@@ -775,21 +775,39 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto: '¿Cuál de las siguientes características distingue al cifrado asimétrico del simétrico?',
+            texto:
+              '¿Cuál de las siguientes características distingue al cifrado asimétrico del simétrico?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
-              { id: 'a', texto: 'Utiliza la misma clave para cifrar y descifrar', esCorrecta: false },
-              { id: 'b', texto: 'Es más rápido que el cifrado simétrico', esCorrecta: false },
-              { id: 'c', texto: 'Utiliza un par de claves: pública y privada', esCorrecta: true },
-              { id: 'd', texto: 'No requiere intercambio de claves entre las partes', esCorrecta: false },
+              {
+                id: 'a',
+                texto: 'Utiliza la misma clave para cifrar y descifrar',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Es más rápido que el cifrado simétrico',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Utiliza un par de claves: pública y privada',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'No requiere intercambio de claves entre las partes',
+                esCorrecta: false,
+              },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
-            texto: '¿Cuál de los siguientes algoritmos es un ejemplo de cifrado simétrico?',
+            texto:
+              '¿Cuál de los siguientes algoritmos es un ejemplo de cifrado simétrico?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
@@ -803,35 +821,69 @@ export default {
           },
           {
             id: 3,
-            texto: '¿Cuál es el propósito principal del protocolo OAuth en una aplicación web?',
+            texto:
+              '¿Cuál es el propósito principal del protocolo OAuth en una aplicación web?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
-              { id: 'a', texto: 'Cifrar las comunicaciones entre el cliente y el servidor', esCorrecta: false },
-              { id: 'b', texto: 'Validar la identidad de los usuarios a través de tokens', esCorrecta: true },
-              { id: 'c', texto: 'Establecer una conexión segura mediante HTTPS', esCorrecta: false },
-              { id: 'd', texto: 'Gestionar certificados digitales en la red', esCorrecta: false },
+              {
+                id: 'a',
+                texto:
+                  'Cifrar las comunicaciones entre el cliente y el servidor',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Validar la identidad de los usuarios a través de tokens',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Establecer una conexión segura mediante HTTPS',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Gestionar certificados digitales en la red',
+                esCorrecta: false,
+              },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: '¿Qué elemento es fundamental en el uso de certificados digitales dentro de la seguridad informática?',
+            texto:
+              '¿Qué elemento es fundamental en el uso de certificados digitales dentro de la seguridad informática?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               { id: 'a', texto: 'La velocidad de cifrado', esCorrecta: false },
-              { id: 'b', texto: 'La disponibilidad de hardware especializado', esCorrecta: false },
-              { id: 'c', texto: 'La verificación de la identidad a través de una Autoridad Certificadora (CA)', esCorrecta: true },
-              { id: 'd', texto: 'El almacenamiento local de las claves', esCorrecta: false },
+              {
+                id: 'b',
+                texto: 'La disponibilidad de hardware especializado',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'La verificación de la identidad a través de una Autoridad Certificadora (CA)',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'El almacenamiento local de las claves',
+                esCorrecta: false,
+              },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
-            texto: '¿Cuál de los siguientes protocolos se basa en el intercambio de aserciones XML para autenticar usuarios entre dominios?',
+            texto:
+              '¿Cuál de los siguientes protocolos se basa en el intercambio de aserciones XML para autenticar usuarios entre dominios?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [

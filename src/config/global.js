@@ -116,78 +116,96 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Ortega Candel, J. M. (2018). Seguridad en aplicaciones Web Java: ( ed.). RA-MA Editorial.',
+      referencia:
+        'Ortega Candel, J. M. (2018). Seguridad en aplicaciones Web Java: ( ed.). RA-MA Editorial.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/1106511',
     },
     {
-      referencia: 'Hernández Encinas, L. (2016). La criptografía: ( ed.). Editorial CSIC Consejo Superior de Investigaciones Científicas.',
+      referencia:
+        'Hernández Encinas, L. (2016). La criptografía: ( ed.). Editorial CSIC Consejo Superior de Investigaciones Científicas.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/41843',
     },
     {
-      referencia: 'Costas Santos, J. (2015). Seguridad y alta disponibilidad: ( ed.). RA-MA Editorial.',
+      referencia:
+        'Costas Santos, J. (2015). Seguridad y alta disponibilidad: ( ed.). RA-MA Editorial.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/62477',
     },
     {
-      referencia: 'González Manzano, L., & De Fuentes García-Romero de Tejada, J. M. (2023). Sistemas seguros de acceso y transmisión de datos. IFCT0109: (2 ed.). IC Editorial.',
+      referencia:
+        'González Manzano, L., & De Fuentes García-Romero de Tejada, J. M. (2023). Sistemas seguros de acceso y transmisión de datos. IFCT0109: (2 ed.). IC Editorial.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/232694',
     },
     {
-      referencia: 'Gómez Vieites, Á. (2015). Sistemas seguros de acceso y transmisión de datos: ( ed.). RA-MA Editorial.',
+      referencia:
+        'Gómez Vieites, Á. (2015). Sistemas seguros de acceso y transmisión de datos: ( ed.). RA-MA Editorial.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/62465',
     },
     {
-      referencia: 'González Manzano, L., & De Fuentes García-Romero de Tejada, J. M. (2023). Sistemas seguros de acceso y transmisión de datos. IFCT0109: (2 ed.). IC Editorial.',
+      referencia:
+        'González Manzano, L., & De Fuentes García-Romero de Tejada, J. M. (2023). Sistemas seguros de acceso y transmisión de datos. IFCT0109: (2 ed.). IC Editorial.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/232694',
     },
   ],
   glosario: [
     {
       termino: 'Autenticación',
-      significado: 'proceso mediante el cual un sistema verifica que una persona o entidad es quien dice ser, utilizando credenciales como contraseñas, tokens o certificados digitales.'
+      significado:
+        'proceso mediante el cual un sistema verifica que una persona o entidad es quien dice ser, utilizando credenciales como contraseñas, tokens o certificados digitales.',
     },
     {
       termino: 'Autoridad de certificación (CA)',
-      significado: 'entidad confiable encargada de emitir, validar y revocar certificados digitales. Actúa como el núcleo de confianza dentro de la Infraestructura de Clave Pública (PKI).'
+      significado:
+        'entidad confiable encargada de emitir, validar y revocar certificados digitales. Actúa como el núcleo de confianza dentro de la Infraestructura de Clave Pública (PKI).',
     },
     {
       termino: 'Certificado digital',
-      significado: 'archivo electrónico que asocia una clave pública con la identidad de su propietario, garantizando la seguridad en procesos como el cifrado, la firma digital y la autenticación.'
+      significado:
+        'archivo electrónico que asocia una clave pública con la identidad de su propietario, garantizando la seguridad en procesos como el cifrado, la firma digital y la autenticación.',
     },
     {
       termino: 'Cifrado asimétrico',
-      significado: 'método criptográfico que utiliza un par de claves (una pública y una privada) para proteger la información. La clave pública cifra los datos, y la privada los descifra.'
+      significado:
+        'método criptográfico que utiliza un par de claves (una pública y una privada) para proteger la información. La clave pública cifra los datos, y la privada los descifra.',
     },
     {
       termino: 'Cifrado simétrico',
-      significado: 'técnica de cifrado donde se emplea la misma clave para cifrar y descifrar la información. Es más rápido que el cifrado asimétrico, pero requiere una forma segura de compartir la clave.'
+      significado:
+        'técnica de cifrado donde se emplea la misma clave para cifrar y descifrar la información. Es más rápido que el cifrado asimétrico, pero requiere una forma segura de compartir la clave.',
     },
     {
       termino: 'Clave privada',
-      significado: 'clave secreta utilizada en el cifrado asimétrico para descifrar mensajes cifrados con la clave pública o para firmar digitalmente. Debe mantenerse protegida en todo momento.'
+      significado:
+        'clave secreta utilizada en el cifrado asimétrico para descifrar mensajes cifrados con la clave pública o para firmar digitalmente. Debe mantenerse protegida en todo momento.',
     },
     {
       termino: 'Clave pública',
-      significado: 'clave utilizada para cifrar datos en el esquema de cifrado asimétrico. Está disponible públicamente y se asocia con una clave privada correspondiente.'
+      significado:
+        'clave utilizada para cifrar datos en el esquema de cifrado asimétrico. Está disponible públicamente y se asocia con una clave privada correspondiente.',
     },
     {
       termino: 'Firma digital',
-      significado: 'técnica criptográfica que garantiza que un mensaje o documento no ha sido alterado y que proviene de una fuente legítima. Se basa en el uso de claves públicas y privadas.'
+      significado:
+        'técnica criptográfica que garantiza que un mensaje o documento no ha sido alterado y que proviene de una fuente legítima. Se basa en el uso de claves públicas y privadas.',
     },
     {
       termino: 'OpenID Connect',
-      significado: 'extensión del protocolo OAuth 2.0 que añade funciones de autenticación de usuarios. Permite a las aplicaciones confirmar la identidad de manera segura y estandarizada.'
+      significado:
+        'extensión del protocolo OAuth 2.0 que añade funciones de autenticación de usuarios. Permite a las aplicaciones confirmar la identidad de manera segura y estandarizada.',
     },
     {
       termino: 'OAuth 2.0',
-      significado: 'protocolo de autorización que permite a aplicaciones acceder a recursos protegidos en nombre del usuario sin necesidad de compartir contraseñas directamente.'
+      significado:
+        'protocolo de autorización que permite a aplicaciones acceder a recursos protegidos en nombre del usuario sin necesidad de compartir contraseñas directamente.',
     },
     {
       termino: 'PKI (Infraestructura de Clave Pública)',
-      significado: 'conjunto de tecnologías, políticas y procedimientos para gestionar certificados digitales y claves criptográficas, facilitando comunicaciones seguras.'
+      significado:
+        'conjunto de tecnologías, políticas y procedimientos para gestionar certificados digitales y claves criptográficas, facilitando comunicaciones seguras.',
     },
     {
       termino: 'SAML (Security Assertion Markup Language)',
-      significado: 'estándar basado en XML utilizado para intercambiar información de autenticación y autorización entre diferentes sistemas de manera segura.'
+      significado:
+        'estándar basado en XML utilizado para intercambiar información de autenticación y autorización entre diferentes sistemas de manera segura.',
     },
   ],
 }
