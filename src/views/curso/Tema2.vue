@@ -115,7 +115,7 @@
     #t_2_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 2.2] Fundamentos de OAuth
     
-    p.mb-5 OAuth (O<em>Open Authorization</em>) es un protocolo de autorización estándar y abierto que permite a las aplicaciones acceder a recursos protegidos en nombre del usuario, sin necesidad de compartir sus credenciales. Es ampliamente utilizado en sistemas modernos para facilitar un acceso seguro y controlado a APIs, servicios <em>web</em> y plataformas digitales.
+    p.mb-5 OAuth (<em>Open Authorization</em>) es un protocolo de autorización estándar y abierto que permite a las aplicaciones acceder a recursos protegidos en nombre del usuario, sin necesidad de compartir sus credenciales. Es ampliamente utilizado en sistemas modernos para facilitar un acceso seguro y controlado a APIs, servicios <em>web</em> y plataformas digitales.
 
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
